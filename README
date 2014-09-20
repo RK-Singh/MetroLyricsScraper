@@ -1,0 +1,25 @@
+
+Metrolyrics Scraper is a Java application for searching and scraping lyrics
+from metrolyrics.com. The link address to the lyrics of user entered text is
+scraped from Google search result of the same user input text as search query.
+The lyrics can also be saved offline as text file.
+
+features:
+	* easy to find lyrics
+	* save as option
+	* google search integration provides auto correction for misspellings
+	* system clipboard integration
+	
+Metrolyrics Scraper is an open source project licensed under the MIT License.
+
+Metrolyrics Scraper uses jsoup (http://jsoup.org/) for parsing html.
+
+Oracle and Java are trademarks or registered trademarks of Oracle and/or its
+affiliates.
+
+jsoup , Copyright © 2009 - 2013 Jonathan Hedley (jonathan@hedley.net)
+
+Google Search , Copyright © 2014 Google Inc.
+
+ Other names may be trademarks of their respective owners.
+
