@@ -81,8 +81,8 @@ public class AboutDialog extends JDialog {
 
 	private void addNorthComponents() {
 		// TODO Auto-generated method stub
-		add(new JLabel("<html><u>" + projectTitle + " " + version,
-				SwingConstants.CENTER), BorderLayout.NORTH);
+		add(new JLabel("<html><u><b>" + projectTitle + " " + version
+				+ "</u></b>", SwingConstants.CENTER), BorderLayout.NORTH);
 
 	}
 

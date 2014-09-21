@@ -188,8 +188,10 @@ public class MenuBar extends JMenuBar {
 			public void actionPerformed(ActionEvent e) {
 				// write code to display help
 				JOptionPane.showMessageDialog(parentFrame,
-						"Enter a song name in the text "
-								+ "field and hit Go to retrieve lyrics.");
+						"Enter a song name in the text field and hit "
+								+ "Go to retrieve lyrics.", "Help",
+						JOptionPane.INFORMATION_MESSAGE);
+
 			}
 		});
 		licenseItem.addActionListener(new ActionListener() {
